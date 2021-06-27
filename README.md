@@ -9,7 +9,7 @@
 ![del_1b_lin_reg_sum.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_1b_lin_reg_sum.png?raw=true)
 
 ### 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-_Values in the columns vehicle-length and ground-clearance provide non-random amounts of variance to the mpg values in the dataset._
+_Values in the columns vehicle_length and ground_clearance provide non-random amounts of variance to the mpg values in the dataset._
 
 ### 2. Is the slope of the linear model considered to be zero? Why or why not?
 _No, the slope of the linear model is not considered to be 0.  There is a significant linear relationship between mpg and vehicle_length/ground_clearance._
