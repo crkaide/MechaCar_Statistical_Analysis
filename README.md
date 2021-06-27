@@ -3,7 +3,7 @@
 ## Linear Regression to Predict MPG
 
 <kbd>
-![del_1a_lin_reg.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_1a_lin_reg.png?raw=true)
+  <img src"![del_1a_lin_reg.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_1a_lin_reg.png?raw=true)">
 </kbd>
   
 ![del_1b_lin_reg_sum.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_1b_lin_reg_sum.png?raw=true)
