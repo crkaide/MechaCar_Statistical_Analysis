@@ -8,6 +8,16 @@
   
 ![del_1b_lin_reg_sum.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_1b_lin_reg_sum.png?raw=true)
 
-### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-### Is the slope of the linear model considered to be zero? Why or why not?
-### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+### 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+### 2. Is the slope of the linear model considered to be zero? Why or why not?
+
+### 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+
+# **Deliverable 2**
+
+
+
+
+
