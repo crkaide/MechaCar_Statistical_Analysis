@@ -20,6 +20,14 @@ _Yes, this model predicts the mpg effectively.  The multiple r-squared value is 
 
 # **Deliverable 2**
 
+## Create Visualizations for the Trip Analysis
+
+![del_2a_total_summary.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_2a_total_summary.png?raw=true)
+  
+![del_2b_lot_summary.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_2b_lot_summary.png?raw=true)
+
+### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+_TEXT._
 
 
 
