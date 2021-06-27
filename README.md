@@ -20,7 +20,7 @@ _Yes, this model predicts the mpg effectively.  The multiple r-squared value is 
 
 # **Deliverable 2**
 
-## Create Visualizations for the Trip Analysis
+## Summary Statistics on Suspension Coils
 
 ![del_2a_total_summary.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_2a_total_summary.png?raw=true)
   
