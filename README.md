@@ -34,6 +34,14 @@ _The data does meet this specification for the lots in total.  Lot1 and Lot2 ind
 
 ## T-Tests on Suspension Coils
 
+![del_3_1.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_3_1.png?raw=true)
+
+![del_3_2_a.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_3_2_a.png?raw=true)
+
+![del_3_2_b.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_3_2_b.png?raw=true)
+
+![del_3_2_c.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_3_2_c.png?raw=true)
+
 
 
 
