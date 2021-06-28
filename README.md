@@ -34,8 +34,33 @@ _The data does meet this specification for the lots in total.  Lot1 and Lot2 ind
 
 ## T-Tests on Suspension Coils
 
+### Briefly summarize your interpretation and findings for the t-test results.
+_Assuming a significance level of 0.05 percent, p-value>significance in all cases.  That is, we must fail to reject the null hypothesis with regard to the PSI across all manufacturing lots vs. the population mean, as well as for each lot vs. the population mean.  The first output screenshot below (del_3_1.png) addresses all lots vs. pop mean; the remaining three screenshots address individual lots in order (1, 2, 3)._
+
+![del_3_1.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_3_1.png?raw=true)
+
+![del_3_2_a.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_3_2_a.png?raw=true)
+
+![del_3_2_b.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_3_2_b.png?raw=true)
+
+![del_3_2_c.png](https://github.com/crkaide/MechaCar_Statistical_Analysis/blob/main/images/del_3_2_c.png?raw=true)
 
 
+# **Deliverable 4**
 
+## Study Design: MechaCar vs Competition
 
+### Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
+#### 1. What metric or metrics are you going to test?
+_MechaCar would like to look at two metrics--mpg city and mpg highway--as they relate to regional temperature.  That is, does the average local temperature in the area of the United States in which a vehicle is bought impact fuel efficiency?  If so, to what degree?
+
+#### 2. What is the null hypothesis or alternative hypothesis?
+_H0: Temperature in region of purchase does not impact fuel efficiency_
+_H1: Temperature in region of purchase impacts fuel efficiency_
+
+#### 3. What statistical test would you use to test the hypothesis? And why?
+_I would begin with two-sample t-tests.  I would create data subsets by average temperature (5-degree buckets) and t-test mean mpg for city and highway between those temperatures.  The two-sample t-test is used to determine whether there is a statistically significant disparity between the means of two samples, and so would be a good starting point in this case.
+
+#### 4. What data is needed to run the statistical test?
+_In addition to the data already included in the dataset, we would need temperature data for all lots/locations._
