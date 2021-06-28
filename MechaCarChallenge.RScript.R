@@ -46,12 +46,21 @@ lot_summary
 
 #-----------------------------------------------------------#
 
+# Deliverable 3: T-Tests on Suspension Coils
 
+# 1. In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+sample_suspension_coil_tbl <- suspension_coil_tbl %>% sample_n(50) #randomly sample 50 data points
+t.test(log10(sample_suspension_coil_tbl$PSI),mu=mean(log10(suspension_coil_tbl$PSI))) #compare sample versus population means
+# p-value = 0.06484; assuming significance level of 0.05 percent, p>significance (e.g., fail to reject the null hypothesis, means are statistically similar)
 
+# 2. Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+lot_1_sample <- subset(suspension_coil_tbl %>% sample_n(50), Manufacturing_Lot == "Lot1")
+lot_2_sample <- subset(suspension_coil_tbl %>% sample_n(50), Manufacturing_Lot == "Lot2")
+lot_3_sample <- subset(suspension_coil_tbl %>% sample_n(50), Manufacturing_Lot == "Lot3")
 
+t.test(log10(lot_1_sample$PSI),log10(sample_suspension_coil_tbl$PSI)) #p-value = 0.4022
+t.test(log10(lot_2_sample$PSI),log10(sample_suspension_coil_tbl$PSI)) #p-value = 0.7003
+t.test(log10(lot_3_sample$PSI),log10(sample_suspension_coil_tbl$PSI)) #p-value = 0.3138
+# In all three cases, assuming significance level of 0.05 percent, p>significance (e.g., fail to reject the null hypothesis, means are statistically similar)
 
-
-
-
-
-
+# 3. Save your MechaCarChallenge.RScript file to your GitHub repository.
